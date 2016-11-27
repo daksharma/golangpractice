@@ -4,13 +4,15 @@ import "fmt"
 
 func main() {
 	fmt.Println("****** Fibonacci Example ******")
-	fmt.Println("|-----------------------------|")
+	fmt.Println("|----------------------------------|")
+	fmt.Println("|   First 40 Fibonacci Sequence|   |")
+	fmt.Println("|----------------------------------|")
 	defer fmt.Println("****** End Fibonacci Example ******")
-	defer fmt.Println("|-----------------------------|")
+	defer fmt.Println("|----------------------------------|")
 
 	// Stay under 50, else it takes longer to calculate higher numbers of Fibonacci
 	for xcount := 0; xcount < 40; xcount++ {
-		fmt.Printf("| %12d | %-12d |\n", fib(xcount), fibRec(xcount))
+		fmt.Printf("| %2d | %12d | %-12d |\n", xcount, fib(xcount), fibRec(xcount))
 	}
 }
 
