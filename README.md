@@ -9,4 +9,4 @@ Learning (Google Go Programming)[https://golang.org/] language through creating 
 ## Instructions
 - [ ] Clone or Download
 - [ ] cd into the folder
-- [ ] simply run `go run hello.go`
+- [ ] run cmd `go run hello.go`
