@@ -1,7 +1,7 @@
 # Google Go Programming Practice
 Testing out Go Programming Language.
 
-Learning (Google Go Programming)[https://golang.org/] language through creating basic data structure and algorithms
+Learning [Google Go Programming](https://golang.org/) language through creating basic data structure and algorithms
 
 
 ## Note
