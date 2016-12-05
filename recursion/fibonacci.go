@@ -1,8 +1,10 @@
-package main
+package recursion
 
 import "fmt"
 
-func main() {
+// FibonacciNums outputs the First 40 Fibonacci numbers recursively
+// Also uses defer to put at the endof the function run
+func FibonacciNums() {
 	fmt.Println("****** Fibonacci Example ******")
 	fmt.Println("|----------------------------------|")
 	fmt.Println("|   First 40 Fibonacci Sequence|   |")
